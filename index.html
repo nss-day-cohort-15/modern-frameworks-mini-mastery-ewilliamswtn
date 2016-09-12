@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flowers</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body ng-app="FlowerApp">
+  <div ng-controller="initialTest">
+    <button ng-click="helloWorld()">Click!</button>
+  </div>
+  <div ng-repeat="flower in flowers">
+    <h3>{{flower.category}}</h3>
+    <p>{{flower.description}}</p>
+    <p>{flower.price}}</p>
+    <p>{flower.title}}</p>
+  </div>
+
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script src="lib/node_modules/firebase/firebase.js"></script>
+
+<script type="text/javascript" src="app/app.js"></script>
+
+<script type="text/javascript" src="app/values/fb-creds.js"></script>
+
+<script type="text/javascript" src="app/factories/factory.js"></script>
+</body>
+</html>
