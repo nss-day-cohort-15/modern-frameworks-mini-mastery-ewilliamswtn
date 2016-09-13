@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>flowers</title>
+  <link rel="stylesheet" type="text/css" href="css/main.css">
+</head>
+<body ng-app="FlowerApp">
+
+  <div ng-controller="WelcomePage">
+    <button ng-click="goGetFlowers()">Click4Flowers</button>
+  </div>
+
+  <div ng-view>
+    <!-- content -->
+  </div>
+
+
+<!-- 3rd party -->
+<script src="lib/node_modules/jquery/dist/jquery.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular/angular.min.js"></script>
+<script type="text/javascript" src="lib/node_modules/angular-route/angular-route.min.js"></script>
+<script src="lib/node_modules/firebase/firebase.js"></script>
+
+<!-- app -->
+<script type="text/javascript" src="app/app.js"></script>
+
+<!-- data -->
+<script type="text/javascript" src="app/values/fb-creds.js"></script>
+
+<!-- factories -->
+<script type="text/javascript" src="app/factories/factory.js"></script>
+
+<!-- controllers -->
+<script type="text/javascript" src="app/controllers/flower-view.js"></script>
+</body>
+</html>

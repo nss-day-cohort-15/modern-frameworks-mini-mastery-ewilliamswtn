@@ -1,0 +1,22 @@
+{
+  "name": "modern-frameworks-mini-mastery-ewilliamswtn",
+  "version": "1.0.0",
+  "description": "### Requirements For this project you need to use Angular to list types of flower arrangements offered by a florist. Build an application that has one view, one controller, and a factory. The view needs to list all the data for each product: name, description, and price. Products with matching category types -- holiday, bereavement, and misc -- should be listed together under a category header.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nss-day-cohort-15/modern-frameworks-mini-mastery-ewilliamswtn.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nss-day-cohort-15/modern-frameworks-mini-mastery-ewilliamswtn/issues"
+  },
+  "homepage": "https://github.com/nss-day-cohort-15/modern-frameworks-mini-mastery-ewilliamswtn#readme",
+  "devDependencies": {
+    "angular": "^1.5.8"
+  }
+}
